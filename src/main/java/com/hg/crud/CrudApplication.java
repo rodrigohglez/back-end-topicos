@@ -15,7 +15,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class CrudApplication {
 
 	@Bean
-	  public Docket pacientesApi() {
+	  public Docket ProductosApi() {
 	    return new Docket(DocumentationType.SWAGGER_2)
 	        .select()
 	          .apis(RequestHandlerSelectors.any())
