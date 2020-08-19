@@ -15,7 +15,11 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class CrudApplication {
 
 	@Bean
+<<<<<<< HEAD
 	  public Docket productosApi() {
+=======
+	  public Docket ProductosApi() {
+>>>>>>> 3c979586bbaeeb0949ba7786a51f4265afda74bb
 	    return new Docket(DocumentationType.SWAGGER_2)
 	        .select()
 	          .apis(RequestHandlerSelectors.any())
